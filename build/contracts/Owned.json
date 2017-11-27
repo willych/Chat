@@ -8,15 +8,15 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a72305820bec3137199b7b36c4ee7ac4af89573e0a0049bf86a9759efb7abe3bbf06713b30029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820bec3137199b7b36c4ee7ac4af89573e0a0049bf86a9759efb7abe3bbf06713b30029",
+  "bytecode": "0x60606040523415600e57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550603580605b6000396000f3006060604052600080fd00a165627a7a723058202b7af7065e2856c5809adc5f0ce267532ab1043845ee2859da86bacbdba37ba30029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058202b7af7065e2856c5809adc5f0ce267532ab1043845ee2859da86bacbdba37ba30029",
   "sourceMap": "26:189:2:-;;;167:46;;;;;;;;198:10;190:5;;:18;;;;;;;;;;;;;;;;;;26:189;;;;;;",
   "deployedSourceMap": "26:189:2:-;;;;;",
   "source": "pragma solidity ^0.4.11;\n\ncontract Owned {\n  //State variable\n  address owner;\n\n  //Modifiers\n  modifier onlyOwner() {\n    require(msg.sender == owner);\n    _;\n  }\n\n  function Owned() {\n    owner = msg.sender;\n  }\n}\n",
-  "sourcePath": "/Users/will/Documents/Solidity/Chat/contracts/Owned.sol",
+  "sourcePath": "/Users/will/Documents/Git/chat/contracts/Owned.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/Users/will/Documents/Solidity/Chat/contracts/Owned.sol",
+      "absolutePath": "/Users/will/Documents/Git/chat/contracts/Owned.sol",
       "exportedSymbols": {
         "Owned": [
           249
@@ -360,5 +360,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-26T00:23:58.635Z"
+  "updatedAt": "2017-11-27T20:36:05.538Z"
 }
