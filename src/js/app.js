@@ -140,6 +140,9 @@ App = {
         fromBlock: 0,
         toBlock: 'latest'
       }).watch(function(error, event) {
+        if(error) {
+          console.error(error);
+        }
         App.reloadMessages();
       });
     });
