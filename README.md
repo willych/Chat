@@ -1,1 +1,6 @@
-chat
+Chat App
+
+Deployed to (Rinkeby): 0x136ecd497764c93F2cFb5D4d2EC6B14FD7daB2bc
+
+Interface:
+[ { "constant": true, "inputs": [ { "name": "", "type": "uint256" } ], "name": "messages", "outputs": [ { "name": "id", "type": "uint256", "value": "0" }, { "name": "sender", "type": "address", "value": "0x0000000000000000000000000000000000000000" }, { "name": "message", "type": "string", "value": "" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [], "name": "getChat", "outputs": [ { "name": "", "type": "uint256[]", "value": [ "1" ] } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [], "name": "kill", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "constant": true, "inputs": [], "name": "getNumberOfMessages", "outputs": [ { "name": "", "type": "uint256", "value": "1" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": false, "inputs": [ { "name": "_message", "type": "string" } ], "name": "sendMessage", "outputs": [], "payable": false, "stateMutability": "nonpayable", "type": "function" }, { "anonymous": false, "inputs": [ { "indexed": true, "name": "_id", "type": "uint256" }, { "indexed": true, "name": "_sender", "type": "address" }, { "indexed": false, "name": "_message", "type": "string" } ], "name": "newMessageEvent", "type": "event" } ]
